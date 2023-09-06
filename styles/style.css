@@ -118,3 +118,31 @@ body {
     font-size: 32px;
     color: var(--branco-principal);
 }
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.lista__link a {
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.lista__link a:hover {
+    color: var(--cinza-secundario);
+}
+
+.rodape p {
+    margin-bottom: 25px;
+    color: var(--cinza-secundario);
+}
