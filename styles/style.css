@@ -5,6 +5,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --botão-azul-efeito: #3c92fa;
 
     --fonte-principal: 'Inter';
 }
@@ -145,4 +146,9 @@ body {
 .rodape p {
     margin-bottom: 25px;
     color: var(--cinza-secundario);
+}
+
+.container__botao:hover {
+    background-color: var(--botão-azul-efeito);
+    color: var(--cor-de-fundo);
 }
